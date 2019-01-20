@@ -1,16 +1,16 @@
-RetroPie-Setup Extended
+RetroPie-Setup Expanded
 =======================
 
 General Usage
 -------------
 
-RetroPie-Setup Extended is an Unoffical Fork. It is a shell script that is based on the orginal RetroPie, and used is to setup the Raspberry Pi, Vero4K, ODroid-C1, Tinker Board or a PC running Ubuntu with many emulators and games, using EmulationStation as the graphical front end. RetroPie-Setup Extended focus will be for the Tinker Board and higher end sbc's.
+RetroPie-Setup Expanded is an Unoffical Fork. It is a shell script that is based on the orginal RetroPie, and used is to setup the Raspberry Pi, Vero4K, ODroid-C1, Tinker Board or a PC running Ubuntu with many emulators and games, using EmulationStation as the graphical front end. RetroPie-Setup Extended focus will be for the Tinker Board and higher end sbc's.
 
 This Extended script is designed for use on for the Tinker Board and Tinker Board S, but will still work on Raspberry Pi with Raspbian, OSMC on the Vero4K or Ubuntu on the ODroid-C1 or a PC.
 
 Any issues or requests should be sent here and not to RetroPie, due to the fact they have noting to do with this version. 
 
-RetroPie-Setup Extended Installation
+RetroPie-Setup Expanded Installation
 ====================================
 
 To run the RetroPie Setup Script make sure that your APT repositories are up-to-date and that Git is installed:
@@ -25,7 +25,7 @@ Then you can download the latest RetroPie setup script with
 
 ```shell
 cd
-git clone --depth=1 https://github.com/RetroPie-Extended/RetroPie-Setup.git
+git clone --depth=1 https://github.com/RetroPie-Expanded/RetroPie-Setup.git
 ```
 
 The script is executed with 
