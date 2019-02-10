@@ -123,10 +123,9 @@ function _add_rom_emulationstation() {
 
 function depends_emulationstation() {
     local depends=(
-        libboost-system-dev libboost-filesystem-dev
-        libboost-date-time-dev libfreeimage-dev libfreetype6-dev
+        libfreeimage-dev libfreetype6-dev
         libcurl4-openssl-dev libasound2-dev cmake libsdl2-dev libsm-dev
-        libvlc-dev libvlccore-dev vlc
+        libvlc-dev libvlccore-dev vlc rapidjson-dev
     )
 
     isPlatform "x11" && depends+=(gnome-terminal)
@@ -157,6 +156,7 @@ function install_emulationstation() {
         'emulationstation.sh'
         'GAMELISTS.md'
         'README.md'
+        'resources'
         'THEMES.md'
     )
 }
