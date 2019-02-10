@@ -41,4 +41,4 @@ function configure_lr-melonds() {
 
     addEmulator "$def" "$md_id" "nds" "$md_inst/melonds_libretro.so"
     addSystem "nds"
-}
+
