@@ -1,4 +1,4 @@
-# RetroPie Legal Information
+# RetroPie On The Tinkerboard Legal Information
 
 ## License
 
